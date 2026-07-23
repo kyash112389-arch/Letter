@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For You ❤️</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#ff758c,#ff7eb3);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    background:white;
+    width:90%;
+    max-width:700px;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+    animation:fade 1.5s;
+}
+
+h1{
+    color:#ff2d55;
+    text-align:center;
+}
+
+p{
+    font-size:19px;
+    line-height:1.8;
+    color:#444;
+}
+
+.signature{
+    margin-top:30px;
+    text-align:right;
+    color:#ff2d55;
+    font-size:22px;
+    font-weight:bold;
+}
+
+@keyframes fade{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>❤️ A Letter For You ❤️</h1>
+
+<p>
+Dear My Love,
+<br><br>
+
+If you're reading this, it means you said <b>YES</b>, and I honestly can't describe how happy that makes me.
+
+From the moment you came into my life, you made ordinary days feel special. Your smile, your laugh, and the way you are have become something I look forward to every day.
+
+I don't promise a perfect relationship, because nobody is perfect. But I do promise to be honest with you, respect you, support you, make you smile whenever I can, and stay by your side through the good and the difficult times.
+
+Thank you for giving me a chance to be a part of your life.
+
+I hope this is the beginning of a beautiful journey that we'll remember forever.
+
+No matter where life takes us, you'll always have a special place in my heart.
+
+❤️ I really like you, and I'm excited for all the memories we'll create together.
+
+</p>
+
+<div class="signature">
+With Love,<br>
+Yash ❤️
+</div>
+
+</div>
+
+</body>
+</html>
